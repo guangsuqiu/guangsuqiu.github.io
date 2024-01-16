@@ -22,7 +22,16 @@
 ## github 修改默认分支
 在Settings页面，General选项中，修改Default branch
 
+## 主题目录下为空问题
+
+```
+git rm -rf --cached themes/butterfly/
+git add themes/butterfly
+git commit -m ""
+```
+
 参考链接：
 1. [使用git分支保存hexo博客源码到github](https://www.yangbing.fun/2019/06/29/save-hexo-source-post-with-git-branch/)
 2. [Hexo+Next主题搭建个人博客+优化全过程（完整详细版）](https://zhuanlan.zhihu.com/p/618864711)
-3. [个人博客】Hexo+Github搭建个人博客（2023全）](https://www.6young.site/blog/de56ed25.html)
+3. [【个人博客】Hexo+Github搭建个人博客（2023全）](https://www.6young.site/blog/de56ed25.html)
+4. [【Git】Git出现 fatal: Pathspec ‘xxx‘ is in submodule ‘xxx‘ 异常 解决方案](https://blog.csdn.net/zzddada/article/details/121930030)
