@@ -16,6 +16,12 @@
     npm install hexo-renderer-pug hexo-renderer-stylus
     ```
 
+4. 更新node_modules
+    ```
+    rm -rf node_modules
+    npm install --force
+    ```
+
 ## github 404 设置
 在Settings页面，Pages选项中，选择Branch为release分支的root后，点击save后即可正常显示
 
