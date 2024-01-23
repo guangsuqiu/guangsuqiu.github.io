@@ -234,7 +234,7 @@ aside:
       link: https://github.com/guangsuqiu
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: Welcom to communicate with me!
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
