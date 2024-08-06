@@ -3,12 +3,11 @@
 ## 重新构建
 1. 下载node.js
 2. 安装hexo，在git bash中输入
-    ```
+    ```bash
     npm config set registry https://registry.npm.taobao.org # 将npm源替换为阿里的镜像，安装更快
     npm install hexo-cli -g # 安装Hexo
     rm -rf node_modules && npm install --force
     npm install hexo-deployer-git --save
-    git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
     npm install hexo-renderer-pug hexo-renderer-stylus
     hexo -v # 返回Hexo版本，确定安装成功
     ```
@@ -21,6 +20,11 @@
     |4|hexo clean|清除缓存文件与生成的静态文件|
     |5|hexo new "博客名称"|在 blog/source/_posts/文件夹下生成`博客名称.md`文档|
 
+4. TODO
+```
+    git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+```
+重新根据博客构建仓库，目前存在一些问题 
 
 ## github 404 设置
 在Settings页面，Pages选项中，选择Branch为release分支的root后，点击save后即可正常显示
